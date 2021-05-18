@@ -101,6 +101,7 @@ header {
     perspective: 1500px;
     perspective-origin: center bottom;
     position: relative;
+    overflow: hidden;
 }
 
 header .scroll {
@@ -288,6 +289,7 @@ h3 i {
     background-position: bottom;
     color: #fff;
     text-align: center;
+    overflow: hidden;
 }
 
 .testimonial .fas {
@@ -342,6 +344,8 @@ h3 i {
 /* contact section ends  */
 
 /* api section starts  */
+
+.api {overflow: hidden;}
 
 .api .item {
     width: 100%;
@@ -415,6 +419,7 @@ h3 i {
 .info {
     background-color: rgb(29, 28, 28);
     color: #fff;
+    overflow: hidden;
 }
 
 .info span {
@@ -462,6 +467,7 @@ footer {
     text-align: center;
     color: #fff;
     background-position: center;
+    overflow: hidden;
 }
 
 footer p {
@@ -565,10 +571,12 @@ footer h3 i:nth-child(2):hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.562);
     }
 
-    nav ul li a::before {
-        display: none !important;
-    }
+    nav ul li a::before {display: none !important;}
 
+    footer img {width: 300px;}
+    header img {width: 300px;}
+    header h1 {font-size: 60px;}
+    header span {font-size: 70px;}
 }
 
 @media (max-width: 780px) {

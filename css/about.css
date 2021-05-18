@@ -101,6 +101,7 @@ header {
     perspective: 1500px;
     perspective-origin: center bottom;
     position: relative;
+    overflow: hidden;
 }
 
 header .scroll {
@@ -173,6 +174,10 @@ header h2 {
 /* header section ends  */
 
 /* about section starts  */
+
+.about {
+    overflow: hidden;
+}
 
 h1 {
     text-transform: uppercase;
@@ -268,6 +273,7 @@ p {
     color: #ed090d;
     text-align: center;
     margin: auto;
+    overflow: hidden;
 }
 
 .icons h3 i{
@@ -320,6 +326,7 @@ p {
 .secrets {
     background-color: rgb(29, 28, 28);
     color: #fff;
+    overflow: hidden;
 }
 
 .secrets h1 {text-align: center;}
@@ -360,6 +367,8 @@ h5,h3 {
 /* secrets section ends  */
 
 /* team section starts  */
+
+.team {overflow: hidden;}
 
 .team .card {
     border-radius: 50% 50% 20% 20%;
@@ -436,6 +445,7 @@ h5,h3 {
 .info {
     background-color: rgb(29, 28, 28);
     color: #fff;
+    overflow: hidden;
 }
 
 .info span {
@@ -484,6 +494,7 @@ footer {
     text-align: center;
     color: #fff;
     background-position: center;
+    overflow: hidden;
 }
 
 footer p {
@@ -577,5 +588,11 @@ footer h3 i:nth-child(2):hover {
     .secrets .text::before { transform: translateX(100%); }
     .secrets .p2::before { content: 'BEQUIPEMENT'; transform: translateX(55%); }
     .secrets .p3::before { content: 'INCREDIBLE LOCATION'; transform: translateX(25%); }
+
+    footer img {width: 300px;}
+    header img {width: 300px;}
+    header h1 {font-size: 60px;}
+    header span {font-size: 70px;}
+    header h2 {font-size: 30px;}
 
 }

@@ -101,6 +101,7 @@ header {
     perspective: 1500px;
     perspective-origin: center bottom;
     position: relative;
+    overflow: hidden;
 }
 
 header .scroll {
@@ -138,6 +139,8 @@ header h2 {
 /* header section ends  */
 
 /* article section starts  */
+
+article {overflow: hidden;}
 
 article .cards {
     width: 100%;
@@ -310,6 +313,7 @@ article .side .active {
 .info {
     background-color: rgb(29, 28, 28);
     color: #fff;
+    overflow: hidden;
 }
 
 .info span {
@@ -358,6 +362,7 @@ footer {
     text-align: center;
     color: #fff;
     background-position: center;
+    overflow: hidden;
 }
 
 footer p {
@@ -441,6 +446,13 @@ footer h3 i:nth-child(2):hover {
         font-size: 18px;
         margin-left: 0;
     }
+
+    footer img {width: 300px;}
+    header img {width: 300px;}
+    header h1 {font-size: 60px;}
+    header span {font-size: 70px;}
+
+    article .side {width: auto}
 
 }
 
